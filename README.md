@@ -1,5 +1,7 @@
 # Faqturz
 
+[![Build Status](https://travis-ci.org/goozzik/faqturz.svg?branch=master)](https://travis-ci.org/goozzik/faqturz)
+
 **TODO: Add description**
 
 ## Installation
@@ -18,4 +20,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/faqturz](https://hexdocs.pm/faqturz).
-
