@@ -11,5 +11,4 @@ env:
   - MIX_ENV=test
 
 script:
-  - mix test
-  - mix coveralls.travis
+  - "mix do test && mix compile && mix coveralls.travis"
