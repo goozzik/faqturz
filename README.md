@@ -3,7 +3,13 @@
 [![Build Status](https://travis-ci.org/goozzik/faqturz.svg?branch=master)](https://travis-ci.org/goozzik/faqturz)
 [![Coverage Status](https://coveralls.io/repos/github/goozzik/faqturz/badge.svg)](https://coveralls.io/github/goozzik/faqturz)
 
-**TODO: Add description**
+## Environment variables
+
+Configure mandatory environment variables in your `.env` file. The best way to start is to just copy the `.env.example`:
+
+```
+cp .env.example .env.develoment
+```
 
 ## Installation
 
