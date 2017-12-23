@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "{\"WidocznyNumerGios\":true,\"Waluta\":\"EUR\",\"Uwagi\":\"Order No. 589644125-17\",\"TypFaktury\":\"prz_eksport_dost_uslug_ue\",\"TerminPlatnosci\":\"2017-12-28\",\"SposobZaplaty\":\"PRZ\",\"RodzajPodpisuOdbiorcy\":\"BPO\",\"Pozycje\":[{\"TypStawkiVat\":\"PRC\",\"StawkaVat\":0.0,\"NazwaPelnaObca\":\"Canister\",\"NazwaPelna\":\"Kanister\",\"JednostkaObca\":\"pcs\",\"Jednostka\":\"sztuk\",\"Ilosc\":\"2\",\"CenaJednostkowa\":28.99}],\"PodpisWystawcy\":\"Andrzej Majeranek\",\"NumerKontaBankowego\":\"brak\",\"Numer\":null,\"NazwaSeriiNumeracji\":null,\"MiejsceWystawienia\":\"Częstochowa\",\"Kontrahent\":{\"Ulica\":\"234 Laurier Avenue West\",\"Telefon\":\"18003031282\",\"PrefiksUE\":null,\"OsobaFizyczna\":true,\"Nazwa\":\"John Malkovich\",\"NIP\":null,\"Miejscowosc\":\"Ottawa\",\"Kraj\":\"Kanada\",\"KodPocztowy\":\"K1A 0G9\",\"Identyfikator\":null,\"Email\":\"john@malkovich.com\"},\"Jezyk\":\"en\",\"DataWystawienia\":\"2017-12-23\"}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authentication": "***"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://www.ifirma.pl/iapi/fakturaproformaeksport.json"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\n  \"response\" : {\n    \"Kod\" : 0,\n    \"Informacja\" : \"Faktura została pomyślnie dodana.\",\n    \"Identyfikator\" : 75915\n  }\n}",
+      "headers": {
+        "Cache-Control": "no-store",
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Language": "en-US",
+        "Transfer-Encoding": "chunked",
+        "Date": "Sat, 23 Dec 2017 12:21:23 GMT"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
